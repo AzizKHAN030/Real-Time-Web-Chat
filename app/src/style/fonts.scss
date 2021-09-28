@@ -1,0 +1,13 @@
+$fonts: ('Roboto', 'Medium', 500),
+        ('Roboto', 'Regular', 400),
+        ('Roboto', 'Light', 300),
+        ('Roboto', 'Bold', 700);
+        
+@each $font-name, $font-subname, $font-weight in $fonts {
+    @font-face {
+        font-family: $font-name;
+        src: url(../fonts/#{$font-name}-#{$font-subname}.woff);
+        font-style: normal;
+        font-weight: $font-weight;
+    }
+}

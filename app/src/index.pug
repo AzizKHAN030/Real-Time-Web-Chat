@@ -1,0 +1,40 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        link(rel="stylesheet", href="css/main.min.css")
+    body 
+        .wrapper 
+            section.form.signup 
+                header Чат
+                form(action="#")
+                    .error-txt Текст ошибки
+                    .name-details  
+                        .field 
+                            input(type="text" placeholder=' ' name = "name")
+                            label(for="name") Имя
+                        .field 
+                            input(type="text" placeholder=' ' name = "lastName")
+                            label(for="lastName") Фамилия
+                        .field 
+                            input(type="text" placeholder=' ' name = "email")
+                            label(for="email") Email
+                        .field 
+                            input(type="password" placeholder=' ' name = "password")
+                            label(for="password") Пароль
+                            i.fas.fa-eye
+                        .field 
+                            input(type="file" name="photo")
+                            label(for="name") Выберите фото
+                        .field.button 
+                            input(type="submit" value = "Перейти в чат")
+                .link Уже зарегистрированы?
+                    a(href="#") Войти
+        
+    script(src="js/main.min.js")
+    script(src="js/sign.min.js")
+                            

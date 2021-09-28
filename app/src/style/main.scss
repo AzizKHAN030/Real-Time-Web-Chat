@@ -1,0 +1,53 @@
+@import "fonts.scss";
+@import "mixins.scss";
+@import "var.scss";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --body-bg: #f7f7f7;
+    --text-color:rgb(78, 78, 78);
+    --main-color:#4fa7da;
+    --hover-color:#3a799e;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+input,
+button,
+select,
+textarea{
+    outline: none;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Roboto';
+    font-weight: 400;
+    background: var(--body-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.wrapper{
+    background:$white;
+    width: 500px;
+    border-radius: 16px;
+    box-shadow: 0 0 128px 0 rgba($color: #000000, $alpha: 0.1), 0 32px 64px -48px rgba($color: #000000, $alpha: 0.5);
+    margin: 0 30px;
+}
+
+@import "register";
+@import "users";
+@import "chat-area";
