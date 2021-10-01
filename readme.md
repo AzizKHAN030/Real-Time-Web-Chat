@@ -1,7 +1,7 @@
 # Real time Web-chat
 
 This is a Real time web chat using HTML,CSS, JS, Ajax, PHP and MySQL,
-for demo visit <a href='khann.h1n.ru'>chat</a>. </br>
+for demo visit <a href='https://khann.h1n.ru' target="blank">chat</a>. </br>
 User 1 login: demo@mail.ru
        password: demo
 </br>
